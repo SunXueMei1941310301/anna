@@ -1,0 +1,60 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1619361677554" stop="1619361679640">
+  <name>test_mark_study</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1619361677554" status="failed" stop="1619361677631">
+      <name>Test_demo2.test_three</name>
+      <failure>
+        <message>AssertionError: assert 0 == 2</message>
+        <stack-trace>self = &lt;test_mark_study.Test_demo2 object at 0x0000019C9E2A3C88&gt;
+
+    @pytest.mark.run(order=1)
+    @pytest.mark.smoke
+    @pytest.mark.demo
+    def test_three(self):
+        b=2
+&gt;       assert 0==b #注意这个用例会失败
+E       assert 0 == 2
+
+test_mark_study.py:20: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1619361679284" status="passed" stop="1619361679385">
+      <name>Test_demo2.test_demo</name>
+      <attachments>
+        <attachment source="dced0e17-92e2-4ff4-bfb0-931bd4fb98ee-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1619361679548" status="passed" stop="1619361679640">
+      <name>Test_demo2.test_two</name>
+      <attachments>
+        <attachment source="7d60cf82-8352-456d-8c00-b58c08d4aca8-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

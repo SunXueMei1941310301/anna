@@ -1,0 +1,64 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1619361678060" stop="1619361679032">
+  <name>test_fixture</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1619361678060" status="passed" stop="1619361678152">
+      <name>Test_firstFile.test_one</name>
+      <attachments>
+        <attachment source="a0ac904f-8309-4a0f-b382-8978981b93af-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1619361678334" status="passed" stop="1619361678463">
+      <name>Test_firstFile.test_two[\u53c2\u65701]</name>
+      <attachments>
+        <attachment source="9488e338-c045-4ee1-9447-716509ac6bed-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="d1941a19-f38a-4003-9e4f-9451702d2a24-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1619361678621" status="passed" stop="1619361678759">
+      <name>Test_firstFile.test_two[\u53c2\u65702]</name>
+      <attachments>
+        <attachment source="92040c14-bf72-4305-a3c0-24826baa37f9-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="5fddc613-1763-490f-af5e-712bf0de8261-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1619361678926" status="passed" stop="1619361679032">
+      <name>Test_firstFile.test_three</name>
+      <attachments>
+        <attachment source="d60b6d6d-aa61-45b6-8ee5-cdad79d59a22-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="72668-MainThread"/>
+        <label name="host" value="DESKTOP-J7CK2FT"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
